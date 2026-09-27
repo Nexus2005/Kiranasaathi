@@ -1,0 +1,97 @@
+# =====================
+# Credentials & secrets — NEVER commit
+# =====================
+.env
+.env.*
+!.env.example
+Kaggle.txt
+kaggle.json
+.kaggle/
+access_token
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# =====================
+# Server logs / runtime output (may contain sensitive request data)
+# =====================
+*.log
+*.out
+*.err
+apps/api/uvicorn*
+apps/api/media/
+media/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# =====================
+# Node / Next.js
+# =====================
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# =====================
+# ML artifacts (heavy, reproducible — never in git)
+# =====================
+training/runs/
+data/
+*.pt
+*.onnx
+*.safetensors
+*.ckpt
+
+# =====================
+# Datasets / caches (license + size: fetch via scripts, don't commit)
+# =====================
+dataset_manifests_local/
+*.h5
+*.hdf5
+
+# Local image archives & scratch photos (scraped product datasets etc.)
+*.zip
+*.rar
+*.7z
+ChatGPT Image*.png
+
+# Roboflow dataset (CC BY 4.0 — fetched separately; too heavy for git)
+train/
+valid/
+test/
+README.dataset.txt
+README.roboflow.txt
+
+# Web app public images used only by the storefront demo
+apps/web/public/products/
+
+# Misc scratch dirs
+apps/api/scripts/__pycache__/
+database/ipv4_attempt/
+
+# =====================
+# OS / editor
+# =====================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =====================
+# Misc project noise
+# =====================
+*.svg.bak
+off_v3_check.json
+s.json
+oc.json

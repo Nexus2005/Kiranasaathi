@@ -1,0 +1,18 @@
+{
+  "dataset_name": "rpc",
+  "source_url": "https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset",
+  "source_platform": "kaggle",
+  "license": "CC BY-NC-SA 4.0 (verified via Kaggle API)",
+  "license_url": "",
+  "commercial_use_status": "NON_PRODUCTION_RESEARCH_ONLY",
+  "redistribution_status": "LICENSE_REVIEW_REQUIRED",
+  "size_bytes": 27205200000,
+  "annotation_format": "COCO",
+  "task": "checkout_scene_detection",
+  "country_domain": "global",
+  "recommended_use": "research_only",
+  "notes": "30k checkout scenes, 200 fine-grained SKUs. Non-commercial: research only. Mount inside Kaggle.",
+  "downloaded_at": null,
+  "files": [],
+  "ref": "diyer22/retail-product-checkout-dataset"
+}

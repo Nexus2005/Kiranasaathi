@@ -1,0 +1,18 @@
+{
+  "dataset_name": "products10k",
+  "source_url": "https://www.kaggle.com/datasets/products10k",
+  "source_platform": "kaggle",
+  "license": "custom research license (TenCent/JP pesquisas)",
+  "license_url": "",
+  "commercial_use_status": "LICENSE_REVIEW_REQUIRED",
+  "redistribution_status": "LICENSE_REVIEW_REQUIRED",
+  "size_bytes": 0,
+  "annotation_format": "classification",
+  "task": "fine_grained_recognition",
+  "country_domain": "global",
+  "recommended_use": "license_review",
+  "notes": "10k classes; hosted outside Kaggle (github products-10k).",
+  "downloaded_at": null,
+  "files": [],
+  "ref": null
+}

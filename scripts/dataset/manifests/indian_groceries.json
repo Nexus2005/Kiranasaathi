@@ -1,0 +1,18 @@
+{
+  "dataset_name": "indian_groceries",
+  "source_url": "https://www.kaggle.com/datasets/akashram/indian-grocery-dataset",
+  "source_platform": "kaggle",
+  "license": "LICENSE_REVIEW_REQUIRED",
+  "license_url": "",
+  "commercial_use_status": "LICENSE_REVIEW_REQUIRED",
+  "redistribution_status": "LICENSE_REVIEW_REQUIRED",
+  "size_bytes": 0,
+  "annotation_format": "COCO",
+  "task": "indian_fmcg_detection",
+  "country_domain": "IN",
+  "recommended_use": "license_review",
+  "notes": "Indian grocery images; verify license on the dataset page before any training use.",
+  "downloaded_at": null,
+  "files": [],
+  "ref": "akashram/indian-grocery-dataset"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_name": "rp2k",
+  "source_url": "https://www.kaggle.com/datasets/rp2k",
+  "source_platform": "kaggle",
+  "license": "research license (request-based, non-commercial)",
+  "license_url": "",
+  "commercial_use_status": "NON_PRODUCTION_RESEARCH_ONLY",
+  "redistribution_status": "LICENSE_REVIEW_REQUIRED",
+  "size_bytes": 0,
+  "annotation_format": "classification",
+  "task": "fine_grained_recognition",
+  "country_domain": "global",
+  "recommended_use": "research_only",
+  "notes": "Fine-grained retail classification; access by request \u2014 not on Kaggle directly.",
+  "downloaded_at": null,
+  "files": [],
+  "ref": null
+}

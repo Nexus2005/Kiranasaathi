@@ -1,0 +1,18 @@
+{
+  "dataset_name": "sku110k",
+  "source_url": "https://www.kaggle.com/datasets/thedatasith/sku110k-annotations",
+  "source_platform": "kaggle",
+  "license": "CC BY-NC-SA 3.0 IGO (verified via Kaggle API)",
+  "license_url": "",
+  "commercial_use_status": "NON_PRODUCTION_RESEARCH_ONLY",
+  "redistribution_status": "LICENSE_REVIEW_REQUIRED",
+  "size_bytes": 14123100000,
+  "annotation_format": "COCO",
+  "task": "retail_object_detection",
+  "country_domain": "global",
+  "recommended_use": "research_only",
+  "notes": "Dense retail shelf detection, 11,762 images. Non-commercial: research/benchmark only. Mount inside Kaggle at training time; never redistribute.",
+  "downloaded_at": null,
+  "files": [],
+  "ref": "thedatasith/sku110k-annotations"
+}

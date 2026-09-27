@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+asyncpg==0.30.0
+pydantic[email]==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+python-jose[cryptography]==3.3.0
+# Smart Counter vision pipeline (all OPTIONAL — adapters probe availability
+# at startup and the API degrades honestly when these are absent).
+# python-multipart: required by FastAPI for multipart/form-data uploads.
+python-multipart==0.0.17
+# Vision runtimes (install only on inference-capable hosts — see
+# docs/smart-counter-models.md): torch+timm (DINOv2), paddleocr+paddlepaddle,
+# pyzbar (needs zbar) OR zxing-cpp (self-contained wheels),
+# opencv-python-headless, Pillow
+Pillow==11.3.0
+# zxing-cpp: Apache-2.0 barcode decoding, self-contained wheels (Windows-safe
+# alternative to pyzbar's zbar DLL chain)
+zxing-cpp==3.1.1
+timm==1.0.30   # DINOv2 weights via timm (vit_small_patch14_dinov2)
